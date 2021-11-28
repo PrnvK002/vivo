@@ -66,10 +66,14 @@
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #777777;
 }
-header.active{
-    background-color: white;
-    color: black;
+.navbar.active{
+    background-color: white !important;
+    
 }
+.nav-link.change_color{
+    color:black !important;
+}
+
 .zoom {
     display: inline-block;
     /* margin: 20px; */
@@ -137,6 +141,15 @@ header.active{
         position:absolute;
         top:25rem;
         right:5.6rem;
+    }
+
+}
+@media(max-width:992px){
+    .navbar{
+        background-color: white;
+    }
+    .nav-link{
+        color:black !important;
     }
 
 }
